@@ -156,7 +156,7 @@ class Bike(Vehicle):
 niye_jao = Ride_Sharing('Lets go')
 sakib = Rider("sakib Khan", 'sakib@khan.com', 1254, 'mohakhali', 1200)
 niye_jao.add_rider(sakib)
-kala_pakhi = Driver('Kala Pakhi', 'kala@sada.com', 5648, 'gulshan 1')
+kala_pakhi = Driver('Kala Pakhi', 'kala@sada.com', 5648, 'gulshan-1')
 niye_jao.add_driver(kala_pakhi)
 print(niye_jao)
 sakib.request_ride(niye_jao, 'Uttara')
