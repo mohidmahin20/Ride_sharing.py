@@ -153,7 +153,7 @@ class Bike(Vehicle):
 
 # check the class integration
 
-niye_jao = Ride_Sharing('Niye Jao')
+niye_jao = Ride_Sharing('Lets go')
 sakib = Rider("sakib Khan", 'sakib@khan.com', 1254, 'mohakhali', 1200)
 niye_jao.add_rider(sakib)
 kala_pakhi = Driver('Kala Pakhi', 'kala@sada.com', 5648, 'gulshan 1')
